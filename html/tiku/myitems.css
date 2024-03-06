@@ -1,0 +1,82 @@
+body {
+    margin: 5% 8% 5% 8%;
+    font-family: "Courier New", KaiTi, STKaiti, STXingkai;
+    font-size: 22px;
+}
+
+h1, h2 {
+    font-family: "Courier New", STXihei, STHeiti, "LiHei Pro Medium", "Apple LiGothic Medium", "Microsoft YaHei", "Microsoft JhengHei", SimHei, MingLiu;
+}
+
+h1 {
+    text-align: center;
+    margin: 2em;
+}
+
+ul.info {
+    margin: 0 auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+ul.info li {
+    display: inline-block;
+    font-size: 20px;
+}
+
+ul.info input[type=text] {
+    width: 6em;
+    border: 0px;
+    border-bottom: 1px solid black;
+    text-align: center;
+    color: blue;
+    font-size: 20px;
+}
+
+ol.items {
+    margin-left: 1em;
+}
+
+ol.items > li {
+    margin-bottom: 1ex;
+    font-size: 20px;
+}
+
+ol.items > li li {
+    list-style: none;
+    font-size: 20px;
+}
+
+ol.items > li li:hover {
+    background-image: linear-gradient(to right, #CCC, white);
+    border-radius: 8px 8px 8px 8px;
+}
+
+ol.items > li input.result {
+    width: 5em;
+    border: 0px;
+    border-bottom: 1px solid black;
+    text-align: center;
+    background: transparent;
+    color: blue;
+}
+
+ol.items > li.wrong li.in {
+    color: red;
+}
+
+ol.items > li.wrong input.result {
+    text-decoration: line-through;
+}
+
+#wrap {
+    text-align: center;
+}
+
+#wrap button {
+    margin: .5in;
+    background: white;
+    font-size: 24px;
+    border-radius: 8px;
+}

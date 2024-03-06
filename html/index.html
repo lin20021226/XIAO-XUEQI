@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>林</title>
+    <link rel="icon" type="image/ico" href="img/04.ico">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/5.12.1/css/all.min.css">
+    <link rel="stylesheet" href="./static/style.css?v=1.1">
+
+
+    <style>
+        body{
+            background-image: url("img/01.jpg"); 
+        }
+        .photo-bg {
+            background-image: url("img/02.jpg");
+        }
+    </style>
+
+
+ 
+
+<body>
+    <div id="main" class="container">
+        <div class="row my-card justify-content-center">
+            <div class="col-lg-4 photo-bg"></div>
+            <div class="col-lg-8 card">
+                <h1>小学期第十组</h1>
+                <p>——————智能医学工程 & 医学信息工程---2023.07-2023.09小学期.....
+                </p>
+                <p id="hitokoto_text">一些想分享给大家的东西：</p>
+                <div class="container-fluid">
+                    <div class="row">
+                        <a href="http://8.130.132.41/huibao.html"  target="_blank" class="btn btn-primary col-lg-4">旧版汇总<a>
+                        <a href="http://8.130.132.41/tiku/myitems.html" target="_blank" class="btn btn-danger col-lg-4">医学题库</a>
+                        <a href="http://8.130.132.41/%E7%BB%84%E5%91%98/card.html" target="_blank" class="btn btn-success col-lg-4">个人简历</button>
+                        <a href="http://8.130.132.41/youxi/card.html" target="_blank" class="btn btn-info col-lg-4">游戏项目</a>
+                        <a href="http://8.130.132.41/zongjie/card.html" target="_blank" class="btn btn-warning col-lg-4">总结报告</a>
+                    </div>
+                </div>
+
+                <div id="aplayer-inner" class="aplayer"></div>
+                <ul class="social mt-1">
+                   <li><a href="http://47.96.134.39/neusoft/case/itemy2023/slide/"><i class="fa fa-rss" aria-hidden="true"></i></a></li>
+                   <li><a href="https://www.csdn.net/"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                </ul>
+                <footer>
+                    <p>Copyright © 2023 林. All rights reserved.</a>
+                        <br>Mod by
+                        <a href="https://github.com/lin20021226" target="_blank" rel="">林</a>
+                        <a href="https://github.com" target="_blank" rel="nofollow"><img src="img/03.ico" style="width:15px;"></a>
+                    </p>
+                    </p>
+
+                </footer>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./static/Meting.min.js"></script>
+    <!-- end_aplayer -->
+    <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+    <script defer src="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="./static/layer-v3.5.1/layer/layer.js"></script>
+    <!-- <script src="./static/main.js"></script> -->
+    <script src="./static/main.js"></script>
+
+
+<script type="text/javascript"> 
+    var a_idx = 0; 
+    jQuery(document).ready(function($) { 
+        $("body").click(function(e) { 
+            var a = new Array("666", "666", "666", "666", "666", "666"); 
+            var $i = $("<span/>").text(a[a_idx]); 
+            a_idx = (a_idx + 1) % a.length; 
+            var x = e.pageX, 
+            y = e.pageY; 
+            $i.css({ 
+                "z-index": 999999999999999999999999999999999999999999999999999999999999999999999, 
+                "top": y - 20, 
+                "left": x, 
+                "position": "absolute", 
+                "font-weight": "bold", 
+                "color": "#ed0505" 
+            }); 
+            $("body").append($i); 
+            $i.animate({ 
+                "top": y - 180, 
+                "opacity": 0 
+            }, 
+            1500, 
+            function() { 
+                $i.remove(); 
+            }); 
+        }); 
+    }); 
+    </script>
+
+
+</html>

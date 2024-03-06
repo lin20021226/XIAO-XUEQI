@@ -1,0 +1,42 @@
+body {
+    background: url('秀才.jpg') no-repeat  center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    text-align: center;
+}
+
+#media-container {
+    width: 1000px;
+    height: 600px;
+    margin-bottom: 20px;
+}
+
+
+#media-container img,
+#media-container video {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+#next-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
